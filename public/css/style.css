@@ -1,0 +1,75 @@
+body{
+    box-sizing: border-box;
+    padding: 1% 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.jogo-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.jogo-img{
+    width: 30%;
+}
+.jogo-letras-botao-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+
+}
+.jogo-button{
+    padding: 2%;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(50, 200, 50);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 100%;
+}
+.jogo-button:hover{
+    background-color: rgb(0, 150, 0);
+}
+.letra{
+    font-weight: bold;
+    font-size: 100%;
+}
+.palavra{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.letras{
+    margin: 5% 0%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.letra-button-abled{
+    box-sizing: border-box;
+    width: 6.5%;
+    padding: 1% 2%;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(120, 180, 255);
+    color: rgb(100, 120, 200);
+    border: 2px solid rgb(100, 120, 200);
+    border-radius: 5px;
+}
+.letra-button-disabled{
+    box-sizing: border-box;
+    width: 6.5%;
+    padding: 1% 2%;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(120, 180, 255, 0.5);
+    color: rgb(100, 120, 200, 0.5);
+    border: 2px solid rgb(100, 120, 200, 0.5);
+    border-radius: 5px; 
+}
