@@ -17,11 +17,8 @@
   for (let b = 0; b < alfabeto.length; b++){
     document.getElementById(alfabeto[b]).disabled = true;
   }
-  let e = document.querySelector('.letras');
-  for (let a = 0; a < e.children; a++){
-    e.children[a].setAttribute('data-test', 'letter');
-  }
+  let e = document.getElementById('letras');
   document.getElementById('palavra').setAttribute('data-test', 'word');
-  document.querySelector('jogo-button').setAttribute('data-test', 'choose-word');
+  document.getElementById('jogo-button').setAttribute('data-test', 'choose-word');
   document.getElementById('jogo_img').setAttribute('data-test', 'game-image');
 </script>

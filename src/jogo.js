@@ -34,7 +34,7 @@ export default function Jogo(){
         <div class="jogo-div">
             <img id= "jogo_img" class="jogo-img" src="./assets/forca0.png"></img>
             <div class="jogo-letras-botao-div">
-                <button class="jogo-button" onClick={escolher_palavra}>Escolher palavra</button>
+                <button id="jogo-button" class="jogo-button" onClick={escolher_palavra}>Escolher palavra</button>
                 <div id="palavra" class="palavra">
                 </div>
             </div>

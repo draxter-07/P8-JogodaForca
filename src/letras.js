@@ -40,9 +40,9 @@ export default function Letras(){
         }
     }
     return(
-        <div class='letras'>
+        <div id="letras" class='letras'>
             {alfabeto.map((letra) =>
-            <button class="letra-button-disabled" onClick={(e) => clique_letra(e)} id={letra}>{letra.toUpperCase()}</button>
+            <button class="letra-button-disabled" onClick={(e) => clique_letra(e)} id={letra} data-test="letter">{letra.toUpperCase()}</button>
             )}
         </div>
     )
