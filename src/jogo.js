@@ -32,10 +32,10 @@ export default function Jogo(){
    }
    return(
         <div class="jogo-div">
-            <img id= "jogo_img" class="jogo-img" src="./assets/forca0.png" data-test="game-image"></img>
+            <img id= "jogo_img" class="jogo-img" src="./assets/forca0.png"></img>
             <div class="jogo-letras-botao-div">
-                <button class="jogo-button" onClick={escolher_palavra} data-test="choose-word">Escolher palavra</button>
-                <div id="palavra" class="palavra" data-test="word">
+                <button class="jogo-button" onClick={escolher_palavra}>Escolher palavra</button>
+                <div id="palavra" class="palavra">
                 </div>
             </div>
         </div>
