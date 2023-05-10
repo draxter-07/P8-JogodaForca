@@ -17,7 +17,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    width: 100%;
+    width: 50%;
 
 }
 .jogo-button{
@@ -36,12 +36,13 @@ body{
 .letra{
     font-weight: bold;
     font-size: 100%;
+    margin: 0px 1%;
 }
 .palavra{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 .letras{
     margin: 5% 0%;
@@ -53,7 +54,7 @@ body{
 }
 .letra-button-abled{
     box-sizing: border-box;
-    width: 6.5%;
+    width: 6.9%;
     padding: 1% 2%;
     margin: 5px;
     text-align: center;
@@ -64,7 +65,7 @@ body{
 }
 .letra-button-disabled{
     box-sizing: border-box;
-    width: 6.5%;
+    width: 6.9%;
     padding: 1% 2%;
     margin: 5px;
     text-align: center;
