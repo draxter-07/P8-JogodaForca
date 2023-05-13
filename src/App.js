@@ -1,5 +1,5 @@
-import Jogo from "./jogo"
-import Letras from "./letras"
+import Jogo from "./jogo.js"
+import Letras from "./letras.js"
 
 export default function App(){
     return(

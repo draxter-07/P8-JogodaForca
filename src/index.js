@@ -1,6 +1,5 @@
 import ReactDOM from 'react-dom'
-import App from './app'
-import palavras from "./palavras"
+import App from './app.js'
 
 function Site(){
   return(
