@@ -12,7 +12,7 @@ export default function Letras(){
         let found = 0;
         for (let a = 0; a < palavra.length; a++){
             if (id == palavra[a]){
-                document.getElementById('letra' + a).innerHTML = id.toUpperCase();
+                document.getElementById('letra' + a).innerHTML = id;
                 found = 1;
                 foundtotal = Number(localStorage.getItem('foundtotal')) + 1;
                 localStorage.setItem('foundtotal', foundtotal);
@@ -30,7 +30,7 @@ export default function Letras(){
                 document.getElementById(alfabeto[b]).disabled = true;
             }
             for (let a = 0; a < palavra.length; a++){
-                document.getElementById('letra' + a).innerHTML = palavra[a].toUpperCase();
+                document.getElementById('letra' + a).innerHTML = palavra[a];
             }
             if (erros == 6){
                 document.getElementById('palavra').style.color = 'rgb(255, 0, 0)';
@@ -44,7 +44,7 @@ export default function Letras(){
     return(
         <div id="letras" class='letras'>
             {alfabeto.map((letra) =>
-            <button class="letra-button-disabled" disabled onClick={(e) => clique_letra(e)} id={letra} data-test="letter">{letra.toUpperCase()}</button>
+            <button class="letra-button-disabled" onClick={(e) => clique_letra(e)} id={letra} data-test="letter">{letra.toUpperCase()}</button>
             )}
         </div>
     )
